@@ -4,4 +4,51 @@ layout: default
 
 <h1>小明·mobi</h1>
 
-<p>敬请期待...</p>
+<style>
+.say{
+    width: 500px;
+    height: 180px;
+    position: relative;
+    background: #ccc;
+    border: solid #666 2px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 180px;
+    font-size: 22px;
+    margin: 20px auto;
+}
+.say:before{
+     width: 0px;
+     height: 0px;
+     border-top: solid #ccc 90px;
+     border-left:solid transparent 60px;
+     border-right: none;
+     border-bottom:none;
+     display: block;
+     content: "";
+     position: absolute;
+     right: 30px;
+     bottom: -50px;
+     -webkit-transform:rotate(-30deg);
+    z-index: 3;
+ }
+.say:after{
+    width: 0px;
+    height: 0px;
+    border-top: solid #666 98px;
+    border-left: solid transparent 66px;
+    border-right: none;
+    border-bottom: none;
+    display: block;
+    content: "";
+    position: absolute;
+    right: 27px;
+    bottom: -56px;
+    -webkit-transform: rotate(-30deg);
+    z-index: -1;
+}
+</style>
+
+<div class="say">
+    我是小明，敬请期待...
+</div>

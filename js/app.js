@@ -38,6 +38,7 @@ window.onload=function(){
   document.getElementById("loader").className="tohide";
   setTimeout(function(){
     hide("loader");
+    show("wrap");
     include_img("http://img.users.51.la/17682537.asp");
   },1500);
 }

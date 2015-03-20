@@ -25,3 +25,30 @@ html {
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+    color: inherit
+}
+p{
+    text-align: justify;
+    text-align-last: justify;
+}
+.nav{
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+.item{
+  width:96%;
+  height:auto;
+  margin:20px auto;
+  max-width:960px;
+}
+.footer{
+    background: #292929;
+    color: #cacaca;
+    width:100%;
+    height:auto;
+    margin 20px auto;
+    padding: 30px 0px 30px 0px;
+}

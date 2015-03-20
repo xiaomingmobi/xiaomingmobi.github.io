@@ -79,6 +79,11 @@
         <link rel="apple-touch-icon" size="192*192" href="http://www.bigbigwork.com/icons/g.png" />
     </head>
     <body>
+    <div id="loader" ontouchmove="return !1" class="loader">
+        <div class="loader-graph"></div>
+        <div id="progress" class="loader-progress"></div>
+        <div class="loader-text">LOADING...</div>
+    </div>
     <h1><a href="/">{{ page.title }}</a></h1>
     <p class="nav">
       <a href="/">Home</a>

@@ -19,7 +19,7 @@ function include_img(path) {
     var img = document.createElement('img');
     img.src = path;
     img.style.display="none";
-    document.body.appendChild("img");
+    document.body.appendChild(img);
 }
 
 function hide(id){

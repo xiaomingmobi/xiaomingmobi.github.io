@@ -14,9 +14,16 @@ p{
     text-align: justify;
     text-align-last: justify;
 }
+.item{
+  width:96%;
+  height:auto;
+  margin:20px auto;
+  max-width:960px;
+}
 .footer{
     background: #292929;
     color: #cacaca;
+    margin 20px 0px 0px 0px;
     padding: 30px 0px 30px 0px;
 }
 .hide{

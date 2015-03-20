@@ -84,16 +84,18 @@
         <div id="progress" class="loader-progress"></div>
         <div class="loader-text">LOADING...</div>
     </div>
-    <h1><a href="/">{{ page.title }}</a></h1>
-    <p class="nav">
-      <a href="/">Home</a>
-      <a href="/about.html">About</a>
-    </p> 
-    <div class="item">
-　　　　{{ content }}
-    </div>
-    <div class="footer">
-    <div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.xiaoming.mobi/" target="_blank">小明</a> All Rights Reserved.</div>
-   </div> 
+    <div id="wrap" class="hide">
+        <h1><a href="/">{{ page.title }}</a></h1>
+        <p class="nav">
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
+        </p> 
+        <div class="item">
+    　　　　{{ content }}
+        </div>
+        <div class="footer">
+        <div class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://www.xiaoming.mobi/" target="_blank">小明</a> All Rights Reserved.</div>
+       </div>
+   </div>
    
 </body></html>

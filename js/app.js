@@ -35,7 +35,7 @@ function remove_html(id){
     document.getElementById(id).innerHTML="";
 }
 window.onload=function(){
-  document.getElementById("loader").className="hide";
+  document.getElementById("loader").className="tohide";
   setTimeout(function(){
     hide("loader");
     include_img("http://img.users.51.la/17682537.asp");

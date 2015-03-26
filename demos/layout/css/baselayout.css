@@ -18,3 +18,14 @@ body{
     margin: auto;
     background:rgba(255,255,255,0.5);
 }
+.flow{
+    display: flex;
+}
+.row{
+    /* zuoyou */
+    flex-flow: row; 
+}
+.column{
+    /* shangxia */
+    flex-flow: column;
+}

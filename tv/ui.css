@@ -32,7 +32,7 @@ body{
     word-break: break-all;
     background: #000000;
 }
-img{
+img1{
     max-width: 100%;
     border: none;
     height: auto;
@@ -227,4 +227,21 @@ p{
     margin: 5px;
     font-size: 50px;
     color: #fff;
+}
+
+/*3*/
+.details .details_select{
+    background: #FF9907;
+}
+
+
+/**/
+.nav{
+    width: 300px;
+    height: 195px;
+    line-height: 195px;
+    font-size: 30px;
+}
+.center{
+    margin: auto;
 }
